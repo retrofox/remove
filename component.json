@@ -1,8 +1,8 @@
 {
   "name": "remove",
   "repo": "retrofox/remove",
-  "description": "Remove an item form array/object",
-  "version": "0.0.1",
+  "description": "Remove an item from array"
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {},
   "development": {},
