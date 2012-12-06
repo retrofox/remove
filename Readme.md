@@ -1,16 +1,69 @@
 
-# remove
+# Remove
 
-  Remove an item form array/object
+  Remove an item from array.
 
 ## Installation
 
-    $ component install retrofox/remove
+```
+$ npm install remove
+$ component install retrofox/remove
+```
 
 ## API
 
-   
+### remove(item, arr)
+
+```js
+var remove = require('remove');
+var arr = ['a', 'b', 'c', 'b', 'd', 'b'];
+remove('a', arr); // => ['a', 'c', 'b', 'd', 'b']
+```
+
+## Tests
+
+### remove(item, arr, multiple)
+
+```js
+var remove = require('remove');
+var arr = ['a', 'b', 'c', 'b', 'd', 'b'];
+remove('a', arr, true); // => ['a', 'c', 'd']
+```
+
+## Tests
+
+Download testing dependecies
+
+```
+npm install
+```
+
+Run tests
+
+```
+make test
+```
 
 ## License
 
-  MIT
+(The MIT License)
+Copyright(c) 2012 Damian Suarez &lt;rdsuarez@gmail.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
