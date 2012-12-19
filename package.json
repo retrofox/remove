@@ -1,7 +1,7 @@
 {
   "name": "remove-component",
   "author": "Damian Suarez <rdsuarez@gmail.com>",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "dependencies": {
     "uniq-component": "0.0.2",
     "indexof-component": "0.0.1"

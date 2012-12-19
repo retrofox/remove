@@ -2,9 +2,13 @@
   "name": "remove",
   "repo": "retrofox/remove",
   "description": "Remove an item from array"
-  "version": "0.1.0",
+  "twitter": "retrofox",
+  "version": "1.0.0",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "retrofox/uniq": "0.1.0",
+    "component/indexof": "0.0.1"
+  },
   "development": {},
   "scripts": [
     "index.js"
