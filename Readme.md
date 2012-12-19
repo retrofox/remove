@@ -16,18 +16,25 @@ $ component install retrofox/remove
 
 ```js
 var remove = require('remove');
-var arr = ['a', 'b', 'c', 'b', 'd', 'b'];
-remove('a', arr); // => ['a', 'c', 'b', 'd', 'b']
+var arr = [1, 2, 3, 1, 2, 3, 1, 2, 3];
+remove(2, arr); // -> [1, 3, 1, 3, 1, 3]
 ```
-
-## Tests
 
 ### remove(item, arr, multiple)
 
 ```js
 var remove = require('remove');
-var arr = ['a', 'b', 'c', 'b', 'd', 'b'];
-remove('a', arr, true); // => ['a', 'c', 'd']
+var arr = [1, 2, 3, 1, 2, 3, 1, 2, 3];
+remove(2, arr, false); // -> [1, 3, 1, 2, 3, 1, 2, 3]
+```
+
+
+### remove(arr, arr, multiple)
+
+```js
+var remove = require('remove');
+var arr = [1, 2, 3, 1, 2, 3, 1, 2, 3];
+remove([2, 1], arr); // -> [3, 3, 3]
 ```
 
 ## Tests
