@@ -3,7 +3,7 @@
   "author": "Damian Suarez <rdsuarez@gmail.com>",
   "version": "1.0.0",
   "dependencies": {
-    "uniq-component": "0.0.2",
+    "uniq-component": "1.0.0",
     "indexof-component": "0.0.1"
   },
   "devDependencies": {
